@@ -1,0 +1,151 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: #f4f4f4;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.hero .btn {
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Products Section */
+.products {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.products h2 {
+    margin-bottom: 2rem;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: 30%;
+    margin-bottom: 2rem;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    margin-top: 1rem;
+}
+
+.product p {
+    color: #333;
+}
+
+.product .btn {
+    background: #333;
+    color: #fff;
+    padding: 0.5rem;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+/* About Section */
+.about {
+    background: #f4f4f4;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-size: 1.1rem;
+}
+
+/* Contact Section */
+.contact {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 1rem;
+}
+
+.contact p {
+    font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
